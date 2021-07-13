@@ -1,0 +1,161 @@
+body {
+	color: #2d2c2c;
+}
+
+header {
+	/** background: center / contain no-repeat	url("file/pcphone_desk.jpg"); **/
+	position: relative;
+	z-index: 1;
+	color: white;
+}
+
+#title {
+	display: flex;
+}
+
+#title img {
+	width: 70px;
+	height: 70px;
+	padding: 5px;
+	padding-top: 15px;
+}
+
+.menu {
+	display: flex;
+	width: all;
+	justify-content: space-between;
+}
+
+.menu li {
+	margin-right: 30px;
+}
+
+
+.menu li a {
+	color: white;
+	text-decoration: none;
+}
+
+#background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+#background img {
+	width: 100%;
+}
+
+h2 {
+	font-family: Questrial, sans;
+	font-weight: 400;
+	display: inline-block;
+	padding: 8px;
+	margin-bottom: 8px;
+	border-bottom: 1px solid #777;
+}
+
+#title_img {
+	position: relative;
+	top: -100px;
+	color: white;
+}
+
+#install {
+	justify-content: center;
+	display: flex;
+	line-height: 18px;
+}
+
+#install div {
+	border: 3px solid black;
+	border-radius: 10px;
+	width: 40%;
+	padding: 5px;
+	margin: 5px;
+}
+
+#install div h3 {
+}
+
+.t {
+	margin-top: 50px;
+}
+
+#what {
+	text-align: center;
+	margin-right: 30%;
+	margin-left: 30%;
+}
+
+img {
+	width: 80%;
+}
+
+section
+{
+	text-align: center;
+}
+
+
+
+section ul
+{
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid black;
+	border-radius: 10px;
+	padding: 50px;
+}
+
+section ul li
+{
+	text-align: left;
+} 
+
+footer {
+	margin: 0px;
+	padding: 0px;
+	background: no-repeat url("file/bois.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+}
+
+footer h3 {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+}
+
+footer a img {
+	width: 100px;
+	margin: 0px;
+	padding: 0px;
+}
+
+footer .menu {
+	width: 60%;
+	margin: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#link {
+	padding-top: 5px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+}
+
+
+.transition {
+	opacity: 1;
+}

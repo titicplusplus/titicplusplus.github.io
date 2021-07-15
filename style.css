@@ -85,8 +85,9 @@ h2 {
 
 #what {
 	text-align: center;
-	margin-right: 30%;
-	margin-left: 30%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 img {
@@ -158,4 +159,39 @@ footer .menu {
 
 .transition {
 	opacity: 1;
+}
+
+@media all and (max-width: 1024px)
+{
+	header .menu {
+		display: none;
+	}
+
+	section ul {
+		width: 80%;
+	}	
+	h2 {
+		font-size: 50px;
+	}
+	#install {
+		display: block;
+	}
+	#install div {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+	}
+
+	footer h3 {
+		font-size: 30px;
+	}
+
+	footer .menu {
+		display: none;
+	}
+
+	footer a img {
+		width: 200px;
+	}
 }
